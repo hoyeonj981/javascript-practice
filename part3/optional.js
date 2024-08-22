@@ -16,7 +16,7 @@ let user1 = {
 let user2 = {};
 user1.admin?.();
 user2.admin?.();
-user2.admin();
+// user2.admin();
 
 let user3 = {
     name: "john"
