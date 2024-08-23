@@ -17,5 +17,6 @@ let array2 = [
     1,2,3,3,4,5
 ];
 
-let newMap = new Map(array2);
+// let newMap = new Map(array2);
+let newMap = new Map(array);
 console.log(newMap);
