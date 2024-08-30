@@ -2,6 +2,8 @@ class User {
     static staticSomeMethod() {
         console.log("hello world")
     }
+
+    static value = "value";
 }
 
 // User.staticSomeMethod = function() {
@@ -9,3 +11,6 @@ class User {
 // };
 
 User.staticSomeMethod();
+User.value = "hello";
+
+console.log(User.value);
