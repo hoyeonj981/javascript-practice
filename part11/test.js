@@ -8,10 +8,6 @@ function test(arg1, arg2) {
     }
 }
 
-function test(arg1) {
-    console.log("i'm test2 ");
-}
-
 test(true);
 test(false, "hello");
 test();
